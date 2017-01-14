@@ -10,7 +10,8 @@
     "rc": "1.0.1",
     "sails": "~0.12.9",
     "sails-disk": "~0.10.9",
-    "sails-hook-wetland": "^0.1.1-0",
+    "sails-hook-authorization": "^1.0.0",
+    "sails-hook-wetland": "^0.2.0",
     "sqlite3": "^3.1.8"
   },
   "scripts": {

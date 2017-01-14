@@ -36,7 +36,7 @@ module.exports = class User extends Entity {
     // Fields
     mapping.field('username', {type: 'string'});
     mapping.field('password', {type: 'string'});
-    mapping.field('email', {type: 'string'});
+    mapping.field('email', {type: 'string', nullable: true});
 
     // Relations
     mapping.oneToMany('lists', {targetEntity: List, mappedBy: 'user'});
